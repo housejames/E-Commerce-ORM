@@ -23,7 +23,6 @@ This project is an e-commerce application that uses an Object-Relational Mapping
 - Express.js
 - Sequelize ORM
 - PostgreSQL
-- Other dependencies (list them here)
 
 ## Installation
 
@@ -38,6 +37,7 @@ git clone https://github.com/housejames/E-Commerce-ORM
 ```bash
 cd E-Commerce-ORM
 npm install
+npm i dotenv
 ```
 
 3. Set up environment variables:
@@ -47,7 +47,8 @@ npm install
 4. Run the application:
 
 ```bash
-npm start
+npm run seed
+nodemon server.js
 ```
 
 ## Usage
